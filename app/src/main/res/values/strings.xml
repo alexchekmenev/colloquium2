@@ -1,8 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Colloquium2</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <string name="app_name">Polls</string>
 
+    <!-- MainActivity -->
+    <string name="action_settings">Settings</string>
+    <string name="action_add_candidate">Add Candidate</string>
+    <string name="action_clear_candidates">Clear all</string>
+    <string name="is_private_poll">Is it private poll?</string>
+    <string name="action_start">Start</string>
+    <string name="action_stop">Stop</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_results">Results</string>
+    <string name="error_poll_already_started">Poll already active</string>
+    <string name="error_poll_not_started">Poll is not active</string>
+    <string name="poll_started">Poll status: active</string>
+    <string name="poll_not_started">Poll status: not active</string>
+    <!-- MainActivity -->
+
+    <!-- VoteActivity -->
+    <string name="title_activity_vote">Voting</string>
+    <string name="text_polling_for">You are voting for</string>
+    <string name="text_candidate_name">Candidate</string>
+    <string name="text_vote">Vote</string>
+    <!-- End VoteActivity -->
+
+    <!-- AddCandidateActivity -->
+    <string name="title_activity_add_candidate">Add New Candidate</string>
+    <string name="text_add_candidate">Add</string>
+    <!-- AddCandidateActivity -->
+
+    <!-- EditActivity -->
+    <string name="title_activity_edit">Edit Candidate</string>
+    <string name="text_edit_candidate">Save</string>
+    <string name="text_delete_candidate">Delete</string>
+    <!-- EditActivity -->
+
+    <string name="title_activity_results">Results of the Poll</string>
 </resources>

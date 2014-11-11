@@ -1,6 +1,58 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
-    <item android:id="@+id/action_settings" android:title="@string/action_settings"
-        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/candidates"
+        android:title="Candidates"
+        android:orderInCategory="100">
+        <!-- "file" submenu -->
+        <menu>
+            <item
+                android:id="@+id/action_add_candidate"
+                android:title="@string/action_add_candidate"
+                android:orderInCategory="100"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/action_clear_candidates"
+                android:title="@string/action_clear_candidates"
+                android:orderInCategory="100"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+
+
+    <item android:id="@+id/poll_managing"
+        android:title="Poll Managing"
+        android:orderInCategory="100">
+        <!-- "file" submenu -->
+        <menu>
+            <item
+                android:id="@+id/is_private_poll"
+                android:title="@string/is_private_poll"
+                android:checkable="true"
+                android:checked="true"/>
+            <item
+                android:id="@+id/action_start"
+                android:title="@string/action_start"
+                android:orderInCategory="100"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/action_stop"
+                android:title="@string/action_stop"
+                android:orderInCategory="100"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/action_clear"
+                android:title="@string/action_clear"
+                android:orderInCategory="100"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_results"
+        android:title="@string/action_results"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
 </menu>
